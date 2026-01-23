@@ -6,8 +6,7 @@ Physics-informed neural networks (PINNs) offer a flexible framework for solving 
 Despite their success, standard PINNs often suffer from limited generalization, instability in inverse problems, and violations of fundamental physical principles, particularly in noisy or data-scarce regimes. 
 This project presents a systematic comparative study of thermodynamic structure–informed PINNs, where different physical formulations are explicitly embedded into the PINN framework.
 We investigate how Newtonian, Lagrangian, and Hamiltonian mechanics for conservative systems, and the Onsager variational principle (OVP) and Extended Irreversible Thermodynamics (EIT) for dissipative systems,
-affect accuracy, robustness, physical consistency, and interpretability when solving forward and inverse problems. The goal is not to propose yet another PINN variant,
-\but to provide quantitative guidance on how the choice of physical formulation shapes the loss landscape and the learned solution space.
+affect accuracy, robustness, physical consistency, and interpretability when solving forward and inverse problems. The goal is not to propose yet another PINN variant, but to provide quantitative guidance on how the choice of physical formulation shapes the loss landscape and the learned solution space.
 
 ## Key Advantages and Findings
 
